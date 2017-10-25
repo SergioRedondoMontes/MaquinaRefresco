@@ -22,7 +22,7 @@ public class AccesoJDBC implements I_Acceso_Datos {
 
 	private String driver, urlbd, user, password; // Datos de la conexion
 	private Connection conn1;
-	
+	 
 
 	public AccesoJDBC() {
 		System.out.println("ACCESO A DATOS - Acceso JDBC");
